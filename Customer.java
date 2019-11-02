@@ -21,6 +21,11 @@ class Customer
     public void showCustomer(){
 
     }
-    public void toString(){
-s}
+    public StringtoString()
+    	
+    }
+    public void showCustName(){
+
+    }
+    
 }
