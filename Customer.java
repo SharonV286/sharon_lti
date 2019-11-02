@@ -24,7 +24,8 @@ class Customer
     public StringtoString()
     	
     }
-    public void showCustName(){
+    @Override
+     public void showCustomer(int name){
 
     }
     
