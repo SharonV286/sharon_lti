@@ -6,5 +6,7 @@ class Customer
     public Int getCstId{
         return CustId;
     }
-
+      public Int setCstId{
+        return CustId;
+      }
 }
