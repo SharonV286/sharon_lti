@@ -10,4 +10,7 @@ class Customer
     public String getCustName{
         return CustName;
     }
+    
+    public void showCustomer(){
+    }
 }
