@@ -6,10 +6,19 @@ class Customer
     public Int getCstId{
         return CustId;
     }
+
       public Int setCustId{
         return CustId;
       }
     
     public void getCustomer(){
+
+    
+    public String getCustName{
+        return CustName;
+    }
+    
+    public void showCustomer(){
+
     }
 }
