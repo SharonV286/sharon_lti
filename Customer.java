@@ -9,4 +9,7 @@ class Customer
       public Int setCustId{
         return CustId;
       }
+    
+    public void getCustomer(){
+    }
 }
