@@ -6,5 +6,8 @@ class Customer
     public Int getCstId{
         return CustId;
     }
-
+    
+    public String getCustName{
+        return CustName;
+    }
 }
