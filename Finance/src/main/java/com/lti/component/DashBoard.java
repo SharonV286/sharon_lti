@@ -89,6 +89,13 @@ public class DashBoard {
 	public void setCARD_NO(int cARD_NO) {
 		CARD_NO = cARD_NO;
 	}
+	@Override
+	public String toString() {
+		return "DashBoard [CARD_NO=" + CARD_NO + ", US_ID=" + US_ID + ", US_NAME=" + US_NAME + ", ISSUE_DATE="
+				+ ISSUE_DATE + ", VALID_TILL=" + VALID_TILL + ", CARD_TYPE=" + CARD_TYPE + ", CARD_STATUS="
+				+ CARD_STATUS + ", TOTAL_CREDIT=" + TOTAL_CREDIT + ", USED_CREDIT=" + USED_CREDIT
+				+ ", REMAINING_CREDIT=" + REMAINING_CREDIT + ", CARD_LIMIT=" + CARD_LIMIT + "]";
+	}
 	
 	
 	

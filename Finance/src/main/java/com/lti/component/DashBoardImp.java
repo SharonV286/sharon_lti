@@ -38,7 +38,8 @@ public class DashBoardImp implements DashBoardInt {
 
 	public List<DashBoard> getCardDetails()
 	{
-		Query q = (Query) entityManager.createQuery("select d from DashBoard d");
+		Query q =entityManager.createQuery("select d from DashBoard d");
+		List<DashBoard> list = q.getResultList();
 		return q.getResultList();
 	}
 
